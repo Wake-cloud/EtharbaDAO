@@ -1,0 +1,123 @@
+/* App.css */
+
+/* General Body Styling */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Orbitron", sans-serif;
+  background: radial-gradient(circle, #0a0a0a, #050505);
+  color: #d0f0ff;
+  overflow-x: hidden;
+}
+
+/* Container for the App */
+div {
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 800px;
+}
+
+/* Header Styling */
+h1 {
+  font-size: 3rem;
+  text-align: center;
+  color: #00ffcc;
+  text-shadow: 0 0 15px #00ffcc, 0 0 30px #008866, 0 0 60px rgba(0, 255, 204, 0.7);
+  margin-bottom: 30px;
+}
+
+/* Section Headers */
+h3 {
+  font-size: 1.8rem;
+  color: #66ff66;
+  margin: 20px 0;
+  text-shadow: 0 0 10px #66ff66, 0 0 20px rgba(102, 255, 102, 0.5);
+}
+
+/* Connected Account */
+p {
+  font-size: 1.1rem;
+  margin: 10px 0;
+  color: #9ee7e7;
+}
+
+/* Alien Box Style */
+ul,
+div {
+  background: rgba(0, 255, 204, 0.07);
+  border: 1px solid #00ffcc;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0, 255, 204, 0.5), 0 0 25px rgba(0, 255, 204, 0.7);
+  backdrop-filter: blur(10px);
+}
+
+/* Buttons */
+button {
+  background: linear-gradient(135deg, #00ffcc, #006666);
+  color: #000;
+  border: none;
+  padding: 10px 15px;
+  font-size: 1rem;
+  border-radius: 12px;
+  margin: 5px 0;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  text-shadow: 0px 0px 5px rgba(0, 255, 204, 0.7);
+}
+
+button:hover {
+  background: linear-gradient(135deg, #66ff66, #009900);
+  color: #fff;
+  box-shadow: 0 0 15px #66ff66, 0 0 30px rgba(102, 255, 102, 0.9);
+}
+
+/* Inputs */
+input[type="text"],
+input[type="number"] {
+  width: calc(100% - 20px);
+  background: rgba(0, 255, 204, 0.1);
+  color: #66ff66;
+  padding: 10px;
+  border: 1px solid #00ffcc;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  font-size: 1rem;
+  box-shadow: 0 0 10px rgba(0, 255, 204, 0.5);
+  text-shadow: 0 0 10px rgba(0, 255, 204, 0.5);
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus {
+  outline: none;
+  border-color: #66ff66;
+  box-shadow: 0 0 15px #66ff66;
+}
+
+/* Proposals List */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin: 10px 0;
+  padding: 20px;
+  background: rgba(102, 255, 102, 0.05);
+  border: 1px solid #66ff66;
+  border-radius: 12px;
+  color: #d0f0ff;
+  box-shadow: 0 0 20px rgba(102, 255, 102, 0.5);
+  position: relative;
+  transition: transform 0.2s ease-in-out, box-shadow 0.3s;
+}
+
+ul li:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 30px rgba(102, 255, 102, 0.7);
+}
+
+ul li p {
+  margin: 5px 0;
+  color: #b0f4d4;
+}
